@@ -15,4 +15,14 @@ public class TestEulerTasks {
 		assertTrue(task1.multiplesOf3and5(8456) == 16687353);
 	}
 
+	@Test
+	public void testTask2() {
+		Task2 task2 = new Task2();
+		assertTrue(task2.fiboEvenSum(10) == 44);
+		assertTrue(task2.fiboEvenSum(18) == 3382);
+		assertTrue(task2.fiboEvenSum(23) == 60696);
+		assertTrue(task2.fiboEvenSum(43) == 350704366);
+	}
+
+
 }
