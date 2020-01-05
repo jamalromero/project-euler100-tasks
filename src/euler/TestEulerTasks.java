@@ -24,5 +24,16 @@ public class TestEulerTasks {
 		assertTrue(task2.fiboEvenSum(43) == 350704366);
 	}
 
+	@Test
+	public void testTask3() {
+		Task3 task3 = new Task3();
+		assertTrue(task3.largestPrimeFactor(2) == 2);
+		assertTrue(task3.largestPrimeFactor(3) == 3);
+		assertTrue(task3.largestPrimeFactor(5) == 5);
+		assertTrue(task3.largestPrimeFactor(7) == 7);
+		assertTrue(task3.largestPrimeFactor(13195) == 29);
+		assertTrue(task3.largestPrimeFactor(600851475143l) == 6857);
+	}
 
+	
 }

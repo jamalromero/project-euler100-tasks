@@ -1,5 +1,8 @@
 package euler;
 
+/*
+ * Find the sum of all the multiples of 3 or 5 below the provided parameter value number.
+ */
 public class Task1 {
 
 	public long multiplesOf3and5(int number) {

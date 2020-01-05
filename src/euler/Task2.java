@@ -1,5 +1,9 @@
 package euler;
 
+
+/*
+ * By considering the terms in the Fibonacci sequence that do not exceed the nth term, find the sum of the even-valued terms.
+ */
 public class Task2 {
 
 	
