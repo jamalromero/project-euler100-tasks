@@ -16,6 +16,16 @@ public class TestEulerTasks {
 	}
 
 	@Test
+	public void testTask1NoLoops() {
+		Task1NoLoops task1NoLoops = new Task1NoLoops();
+		assertTrue(task1NoLoops.multiplesOf3and5(1000) == 233168);
+		assertTrue(task1NoLoops.multiplesOf3and5(49) == 543);
+		assertTrue(task1NoLoops.multiplesOf3and5(19564) == 89301183);
+		assertTrue(task1NoLoops.multiplesOf3and5(8456) == 16687353);
+	}
+
+	
+	@Test
 	public void testTask2() {
 		Task2 task2 = new Task2();
 		assertTrue(task2.fiboEvenSum(10) == 44);
