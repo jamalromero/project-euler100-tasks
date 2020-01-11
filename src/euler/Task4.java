@@ -20,7 +20,7 @@ public class Task4 {
 	
 	/*
 	 * Checks if the number is a product of two divisors 
-	 * with same number if digits
+	 * with same number of digits
 	 */
 	private boolean fitsCriteria(long number) {
 		boolean fitsCriteria = false;
