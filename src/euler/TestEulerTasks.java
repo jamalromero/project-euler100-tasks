@@ -14,16 +14,6 @@ public class TestEulerTasks {
 		assertTrue(task1.multiplesOf3and5(19564) == 89301183);
 		assertTrue(task1.multiplesOf3and5(8456) == 16687353);
 	}
-
-	@Test
-	public void testTask1NoLoops() {
-		Task1NoLoops task1NoLoops = new Task1NoLoops();
-		assertTrue(task1NoLoops.multiplesOf3and5(1000) == 233168);
-		assertTrue(task1NoLoops.multiplesOf3and5(49) == 543);
-		assertTrue(task1NoLoops.multiplesOf3and5(19564) == 89301183);
-		assertTrue(task1NoLoops.multiplesOf3and5(8456) == 16687353);
-	}
-
 	
 	@Test
 	public void testTask2() {
@@ -45,5 +35,10 @@ public class TestEulerTasks {
 		assertTrue(task3.largestPrimeFactor(600851475143l) == 6857);
 	}
 
-	
+	@Test
+	public void testTask4() {
+		Task4 task4 = new Task4();
+		assertTrue(task4.largestPalindromeProduct(2) == 9009);
+		assertTrue(task4.largestPalindromeProduct(3) == 906609);
+	}	
 }
