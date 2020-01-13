@@ -41,4 +41,15 @@ public class TestEulerTasks {
 		assertTrue(task4.largestPalindromeProduct(2) == 9009);
 		assertTrue(task4.largestPalindromeProduct(3) == 906609);
 	}	
+
+	@Test
+	public void testTask5() {
+		Task5 task5 = new Task5();
+		assertTrue(task5.smallestMult(5) == 60);
+		assertTrue(task5.smallestMult(7) == 420);
+		assertTrue(task5.smallestMult(10) == 2520);
+		assertTrue(task5.smallestMult(13) == 360360);
+		assertTrue(task5.smallestMult(20) == 232792560);
+	}	
+
 }
